@@ -1,33 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Job Application Compass Skills</title>
+  <title>Job Application Compass Skills — Working Tools</title>
   <meta name="description" content="Download public Job Application Compass skills for evidence-grounded resumes, cover letters, portfolios, and career communication.">
-  <link rel="icon" href="assets/compass-badge.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Space+Grotesk:wght@400;500;700&display=swap">
+  <link rel="icon" href="assets/working-tools-mark.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="assets/network.css">
 </head>
 <body>
 
   <div id="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Reading progress"></div>
 
-  <nav class="site-nav" aria-label="Compass network">
+  <a class="skip-link" href="#get-started">Skip to downloads</a>
+  <nav class="site-nav" aria-label="Working Tools network">
     <div class="site-nav-inner">
-      <a class="site-nav-brand" href="https://jonathankhobson.github.io/compass-suite/">
-        <img src="assets/compass-badge.svg" alt="">
-        <span>Compass Suite</span>
-      </a>
+      <a class="site-nav-brand" href="https://jonathankhobson.github.io/compass-suite/"><span>Working Tools</span></a>
       <div class="site-nav-sep" aria-hidden="true"></div>
       <button class="site-nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav-menu">
         <span class="site-nav-toggle-icon" aria-hidden="true"></span>
         <span>Menu</span>
       </button>
       <div class="site-nav-links" id="site-nav-menu">
-        <a class="site-nav-link" href="https://jonathankhobson.github.io/compass-suite/">Suite</a>
+        <a class="site-nav-link" href="https://jonathankhobson.github.io/compass-suite/">Library</a>
         <a class="site-nav-link" href="https://jonathankhobson.github.io/critical-compass/">Critical Compass</a>
         <a class="site-nav-link" href="https://jonathankhobson.github.io/prompt-compass/">Prompt Compass</a>
         <a class="site-nav-link" href="https://jonathankhobson.github.io/ux-heuristic-compass/">UX Heuristics</a>
@@ -40,14 +36,14 @@
 
   <header class="hero" aria-label="Job Application Compass Skills">
     <div class="hero-lockup">
-      <img class="hero-badge" src="assets/compass-badge.svg" alt="Job Application Compass badge">
       <div class="hero-id">
         <span class="hero-eyebrow">Job Application Compass Skills · v0.1.0-skills.1</span>
         <h1>Craft career materials without inventing claims.</h1>
       </div>
     </div>
     <p class="hero-lead">A public skills-only release for resumes, cover letters, portfolio case studies, and career communication. The skills help a host AI turn supplied evidence into clearer application materials while keeping missing proof visible.</p>
-    <p class="hero-actions"><a class="button ghost" href="https://jonathankhobson.github.io/compass-suite/">Back to Compass Suite</a></p>
+    <p class="hero-actions"><a class="button" href="#get-started">Choose a skill</a><a class="button ghost" href="https://jonathankhobson.github.io/compass-suite/">Working Tools library</a></p>
+    <aside class="work-specimen" aria-label="Evidence-grounded career claim specimen"><div class="specimen-top"><span>Claim ledger / 11</span><span>Source first</span></div><p class="specimen-before">Led a transformation that doubled engagement.</p><h2>Use the strongest claim the record can support.</h2><p class="specimen-after">Designed and tested the onboarding prototype; participants completed core setup with fewer facilitator prompts.</p><ol class="specimen-list"><li><span>01</span><strong>Source the fact</strong></li><li><span>02</span><strong>Name your role</strong></li><li><span>03</span><strong>Keep the limit visible</strong></li></ol><div class="specimen-foot"><span>No invented metric</span><span>Defensible in interview</span></div></aside>
   </header>
 
   <div class="page-nav-wrap">
@@ -57,12 +53,12 @@
         <span class="section-nav-current">Get Started</span>
       </button>
       <nav class="tab-nav" id="section-nav-menu" role="tablist" aria-label="Job Application Compass sections">
-        <button id="tab-get-started" role="tab" aria-controls="get-started" aria-selected="true" data-tab-target="get-started">Get Started</button>
-        <button id="tab-about" role="tab" aria-controls="about" aria-selected="false" data-tab-target="about">About</button>
-        <button id="tab-install" role="tab" aria-controls="install" aria-selected="false" data-tab-target="install">Install Guide</button>
-        <button id="tab-example" role="tab" aria-controls="example" aria-selected="false" data-tab-target="example">Example</button>
-        <button id="tab-faq" role="tab" aria-controls="faq" aria-selected="false" data-tab-target="faq">FAQ</button>
-        <button id="tab-advanced" role="tab" aria-controls="advanced" aria-selected="false" data-tab-target="advanced">Advanced</button>
+        <button type="button" id="tab-get-started" role="tab" aria-controls="get-started" aria-selected="true" data-tab-target="get-started">Get Started</button>
+        <button type="button" id="tab-about" role="tab" aria-controls="about" aria-selected="false" data-tab-target="about">About</button>
+        <button type="button" id="tab-install" role="tab" aria-controls="install" aria-selected="false" data-tab-target="install">Install Guide</button>
+        <button type="button" id="tab-example" role="tab" aria-controls="example" aria-selected="false" data-tab-target="example">Example</button>
+        <button type="button" id="tab-faq" role="tab" aria-controls="faq" aria-selected="false" data-tab-target="faq">FAQ</button>
+        <button type="button" id="tab-advanced" role="tab" aria-controls="advanced" aria-selected="false" data-tab-target="advanced">Advanced</button>
       </nav>
     </div>
   </div>
@@ -138,7 +134,7 @@
           <h2>Target a Resume</h2>
           <p><strong>When to use:</strong> You have a resume draft and a job description.</p>
           <button class="button secondary" type="button" data-copy-target="prompt-resume">Copy prompt</button>
-          <textarea id="prompt-resume" readonly>Use the Resume Crafter skill.
+          <textarea id="prompt-resume" aria-label="Resume Crafter prompt" readonly>Use the Resume Crafter skill.
 
 I am providing:
 - my current resume draft
@@ -159,7 +155,7 @@ Do not invent metrics, employers, dates, credentials, tools, or ownership.</text
           <h2>Build a Cover Letter</h2>
           <p><strong>When to use:</strong> You want a specific letter without fake company research.</p>
           <button class="button secondary" type="button" data-copy-target="prompt-cover-letter">Copy prompt</button>
-          <textarea id="prompt-cover-letter" readonly>Use the Cover Letter Crafter skill.
+          <textarea id="prompt-cover-letter" aria-label="Cover Letter Crafter prompt" readonly>Use the Cover Letter Crafter skill.
 
 I am providing:
 - the job description
@@ -180,7 +176,7 @@ Do not invent company research, referrals, metrics, credentials, or experience.<
           <h2>Shape a Portfolio Case</h2>
           <p><strong>When to use:</strong> You have rough project notes or artifacts.</p>
           <button class="button secondary" type="button" data-copy-target="prompt-portfolio">Copy prompt</button>
-          <textarea id="prompt-portfolio" readonly>Use the Portfolio Crafter skill.
+          <textarea id="prompt-portfolio" aria-label="Portfolio Crafter prompt" readonly>Use the Portfolio Crafter skill.
 
 I am providing:
 - project notes
@@ -330,7 +326,7 @@ Do not invent users, methods, artifacts, metrics, permissions, or outcomes.</tex
         <h2>AI-Assisted Install Prompt</h2>
         <p>Use this with a technical assistant if you want it to inspect the package before import.</p>
         <button class="button secondary" type="button" data-copy-target="ai-install-text">Copy prompt</button>
-        <textarea id="ai-install-text" readonly>You are a careful AI install assistant. Help me inspect and install the public Job Application Compass Skills package safely.
+        <textarea id="ai-install-text" aria-label="Job Application Compass AI-assisted install prompt" readonly>You are a careful AI install assistant. Help me inspect and install the public Job Application Compass Skills package safely.
 
 Rules:
 - These are skills only, not an MCP.
@@ -348,13 +344,13 @@ After inspection, tell me which skill or bundle is appropriate for my host and w
     <div class="suite-footer-inner">
       <div class="suite-footer-card">
         <p class="suite-footer-note">Job Application Compass Skills is a public skills-only release. The private Job Application Compass MCP is not distributed here.</p>
-        <p class="suite-footer-heading">Compass Suite is created and maintained by Jonathan Kyle Hobson.</p>
-        <p class="suite-footer-purpose">Local-first AI tools for reasoning, prompt work, UX review, and evidence-bound workflows.</p>
-        <nav class="suite-footer-grid" aria-label="Compass network footer">
+        <p class="suite-footer-heading">Job Application Compass is part of Working Tools by J. Kyle Hobson.</p>
+        <p class="suite-footer-purpose">Public resources for writing, evidence, design, building, career work, teaching, and games with AI.</p>
+        <nav class="suite-footer-grid" aria-label="Working Tools network footer">
           <section class="suite-footer-group" aria-labelledby="footer-start-here">
             <h2 id="footer-start-here">Start Here</h2>
             <div class="suite-footer-links">
-              <a href="https://jonathankhobson.github.io/compass-suite/">Compass Suite Home</a>
+              <a href="https://jonathankhobson.github.io/compass-suite/">Working Tools Library</a>
               <a href="https://jonathankhobson.github.io/shareables/s/understanding-ai-2026/">AI Basics</a>
               <a href="https://jonathankhobson.github.io/what-is-an-mcp/">MCP Basics</a>
               <a href="https://jonathankhobson.github.io/compass-suite/#install">Install Guide</a>
@@ -378,7 +374,7 @@ After inspection, tell me which skill or bundle is appropriate for my host and w
             </div>
           </section>
         </nav>
-        <p class="suite-footer-legal">&copy; 2026 Jonathan Kyle Hobson. Code AGPL-3.0-only; docs, prompts, skills, and methodology CC BY-SA 4.0 unless otherwise noted. Compass names, logos, author photo, and official trade dress reserved.</p>
+        <p class="suite-footer-legal">&copy; 2026 Jonathan Kyle Hobson. Code AGPL-3.0-only; docs, prompts, skills, and methodology CC BY-SA 4.0 unless otherwise noted. Product names and official brand assets are reserved.</p>
       </div>
     </div>
   </footer>
