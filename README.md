@@ -1,5 +1,15 @@
 # Job Application Compass Skills Public Page
 
+## Historical repository
+
+This repository preserves the earlier public guide and downloads. Current methods
+and onboarding live in [Career Studio](https://github.com/JonathanKHobson/working-tools-plugins/tree/main/plugins/career-studio).
+Existing Pages URLs, release assets, checksums and examples remain available.
+
+The documentation below describes the preserved edition. Archival does not remove
+separately configured runtimes, change their data, or make the successor a bundled
+replacement for every historical backend.
+
 Four prompt-guidance skills for preparing application materials from supplied facts. Start with the [public skills page](https://jonathankhobson.github.io/job-application-compass/).
 
 This repository publishes the public, skills-only layer of Job Application
