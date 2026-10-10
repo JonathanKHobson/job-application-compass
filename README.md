@@ -1,5 +1,7 @@
 # Job Application Compass Skills Public Page
 
+Four prompt-guidance skills for preparing application materials from supplied facts. Start with the [public skills page](https://jonathankhobson.github.io/job-application-compass/).
+
 This repository publishes the public, skills-only layer of Job Application
 Compass.
 
@@ -26,3 +28,9 @@ any private evidence files.
 These skills are prompt guidance. They help a host AI work from supplied facts.
 They do not run local tools, submit applications, scrape jobs, maintain a
 profile, or expose the private packet engine.
+
+## Source and contribution boundaries
+
+This repository owns the public landing page, installation guidance, and preserved download copies. It is not the complete maintained runtime workspace. Use a versioned source package when a release provides one; do not reconstruct a package from the landing page. The current public release remains usable on its documented terms while successor packaging is separate work.
+
+For a website change, edit the page and its local assets, preview the affected route, and verify downloads and shared Compass navigation. For a package change, locate the owning source and reproduce that release before changing distribution links. Preserve existing versioned assets and checksums. See [AGENTS.md](AGENTS.md).
